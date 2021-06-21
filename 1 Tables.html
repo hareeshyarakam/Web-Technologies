@@ -1,0 +1,76 @@
+<html>
+      <head>
+	<title>Working on table tag</title>
+	<style>
+		body{
+			background-color: #d9b3ff;
+			padding-top: 10%;
+		}
+		th{
+ 			background-color: #4F3466FF;
+			color: ghostwhite;
+			height: 50px;
+		}
+		table{
+			width: 50%;
+			font-size: large;
+		}
+		td {
+			text-align: center;
+		}
+		tr:hover{
+			background-color: #b366ff;
+		}
+
+	</style>
+      </head>
+      <body>
+	<center>
+	<table border="1">
+		<tr>
+			<th>ID</th>
+			<th>NAME</th>
+			<th colspan="2">MOBILE</th>
+		</tr>
+		<tr>
+			<td>123</td>
+			<td>Zayn</td>
+			<td>1234567890</td>
+			<td>2143658709</td>
+		</tr>
+		<tr>
+			<td>865</td>
+			<td>Gigi</td>
+			<td>9988776655</td>
+			<td>4433221100</td>
+		</tr>
+	</table>
+	<br>
+	<hr>
+	<br/>
+	<table border="1">
+		<tr>
+			<th>ID</th>
+			<td>123</td>
+			<td>865</td>			
+
+		</tr>
+		<tr>
+			<th>NAME</th>
+			<td>Zayn</td>
+			<td>Gigi</td>
+
+		</tr>
+		<tr>
+			<th rowspan="2">MOBILE</th>
+			<td>1234567890</td>
+			<td>9988776655</td>
+		</tr>
+		<tr>
+			<td>2143658709</td>
+			<td>4433221100</td>
+		</tr>
+	</table>
+	</center>
+     </body>
+</html>

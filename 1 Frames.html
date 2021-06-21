@@ -1,0 +1,18 @@
+<html>
+       <head>
+	<title>Working with frames</title>
+	<style>
+		frameset{
+			background-color: #d9b3ff;
+		}
+	</style>
+       </head>
+	<frameset rows="20%,75%,5%">
+		<frame src="topframe.html"/>
+		<frameset cols="20%,80%">
+			<frame src="middleframe.html"/>
+			<frame src="rightframe.html" name="righttframe" />
+		</frameset>
+		<frame src="bottomframe.html"/>
+	</frameset>
+</html>

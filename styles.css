@@ -1,0 +1,31 @@
+h1
+{		
+	color:#f2a349;
+	font-family: cursive; 
+	font-size:20pt;
+	text-decoration:underline;
+}
+
+h2
+{		
+	color:#b449f2;
+	font-family:ui-monospace; 
+	font-size:16pt;
+	text-decoration:overline underline;
+	text-decoration-style:wavy;
+}
+
+p
+{
+	color:#3a88e0;
+	font-family:garamond; 
+	font-size:16pt;
+	text-decoration: underline double;
+}
+
+pre
+{
+	font-size: x-large;
+	font: italic small-caps bold 22px/30px Lucida Handwriting ;
+	color:teal;
+}
